@@ -34,10 +34,10 @@ class Solution {
                 int nextC = j + dc[k];
                 
                 if(0 <= nextR && nextR < m && 0 <= nextC && nextC < n) {
-                    if(grid[nextR][nextC] == 1) {
+                    if(grid[nextR][nextC] == '1') {
                         //add to queue and set grid[nextR][nextC] to 0
                         q.add(new pair(nextR, nextC));
-                        grid[nextR][nextC] = 0;
+                        grid[nextR][nextC] = '0';
                     }
                 }
             }

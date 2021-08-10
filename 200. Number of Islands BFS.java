@@ -17,7 +17,7 @@ class Solution {
         //making a queue
         Queue<pair> q = new LinkedList<pair>();
         
-        //add r,c to queue and set grid[r][c] to 0
+        //add r and c to the queue and set grid[r][c] to 0
         q.add(new pair(r, c));
         grid[r][c] = 0;
         
